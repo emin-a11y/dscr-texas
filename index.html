@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DSCR Loans in Texas | Qualify With Rental Income, Not Tax Returns</title>
+<meta name="description" content="Texas DSCR loans for real estate investors. Qualify using the property's rental income instead of W-2s or tax returns. Close in an LLC. Houston, Dallas, Austin, San Antonio and statewide.">
+<style>
+:root{
+  --bg:#fbfaf7; --surface:#ffffff; --ink:#14213d; --muted:#5b6478; --line:#e4e1d8;
+  --brand:#b4381f; --brand-ink:#ffffff; --accent:#14213d; --ok:#1f7a4d; --warn:#9a5b00;
+  --radius:12px; --max:1080px;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0f1524; --surface:#172036; --ink:#f1efe8; --muted:#a4adc2; --line:#2a3552;
+        --brand:#e2593f; --brand-ink:#14100f; --accent:#f1efe8; --ok:#5ccb92; --warn:#e8b04b;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.15;margin:0 0 .5em}
+h1{font-size:clamp(2.2rem,5vw,3.6rem)}
+h2{font-size:clamp(1.7rem,3.4vw,2.4rem)}
+h3{font-size:1.2rem}
+p{margin:0 0 1em}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 16px}
+section{padding:64px 0}
+.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:700;color:var(--brand)}
+.muted{color:var(--muted)}
+.btn{display:inline-block;background:var(--brand);color:var(--brand-ink);padding:14px 24px;border-radius:999px;font-weight:700;text-decoration:none;border:0;cursor:pointer;font-size:1rem}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--line)}
+:focus-visible{outline:3px solid var(--brand);outline-offset:3px}
+
+/* header */
+header.top{border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:Georgia,serif;font-weight:700;font-size:1.25rem;text-decoration:none}
+.logo span{color:var(--brand)}
+header nav a{margin-left:20px;text-decoration:none;font-size:.95rem;color:var(--muted)}
+header nav a.btn{padding:9px 18px;color:var(--brand-ink)}
+@media(max-width:700px){header nav a:not(.btn){display:none}}
+
+/* hero */
+.hero{padding:72px 0 56px}
+.hero .grid{display:grid;gap:40px;grid-template-columns:1.15fr .85fr;align-items:center}
+@media(max-width:860px){.hero .grid{grid-template-columns:1fr}}
+.hero p.lead{font-size:1.15rem;color:var(--muted);max-width:34em}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 16px}
+.checks{list-style:none;padding:0;margin:0;display:flex;gap:8px 20px;flex-wrap:wrap;font-size:.92rem;color:var(--muted)}
+.checks li::before{content:"✓ ";color:var(--ok);font-weight:700}
+
+/* cards */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+.cols{display:grid;gap:20px;grid-template-columns:repeat(3,1fr)}
+@media(max-width:860px){.cols{grid-template-columns:1fr}}
+.cols.two{grid-template-columns:repeat(2,1fr)}
+@media(max-width:860px){.cols.two{grid-template-columns:1fr}}
+
+/* calculator */
+.calc label{display:block;font-size:.85rem;font-weight:600;margin:12px 0 4px}
+.calc input{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font-size:1rem}
+.calc .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.result{margin-top:18px;padding:16px;border-radius:10px;background:var(--bg);border:1px solid var(--line)}
+.result .big{font-family:Georgia,serif;font-size:2.4rem;font-weight:700;line-height:1}
+.result .tag{display:inline-block;margin-top:8px;font-size:.85rem;font-weight:700}
+.tag.good{color:var(--ok)} .tag.mid{color:var(--warn)} .tag.low{color:var(--brand)}
+.fine{font-size:.78rem;color:var(--muted);margin-top:12px}
+
+/* steps */
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:16px;grid-template-columns:repeat(4,1fr)}
+@media(max-width:860px){.steps{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.steps{grid-template-columns:1fr}}
+.steps li{counter-increment:s;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--accent);color:var(--bg);font-weight:700;margin-bottom:10px}
+
+/* table */
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;font-size:.95rem}
+th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--bg);font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+tr:last-child td{border-bottom:0}
+.tablewrap{overflow-x:auto}
+
+.band{background:var(--accent);color:var(--bg)}
+.band .muted{color:inherit;opacity:.8}
+.band .eyebrow{color:var(--bg);opacity:.75}
+
+/* markets */
+.markets{display:flex;flex-wrap:wrap;gap:10px;padding:0;list-style:none;margin:20px 0 0}
+.markets li{border:1px solid var(--line);background:var(--surface);padding:8px 16px;border-radius:999px;font-size:.95rem}
+
+/* faq */
+details{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:700}
+details p{margin:10px 0 0;color:var(--muted)}
+
+/* form */
+form.lead label{display:block;font-weight:600;font-size:.9rem;margin:14px 0 4px}
+form.lead input,form.lead select{width:100%;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font-size:1rem}
+form.lead .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:520px){form.lead .row{grid-template-columns:1fr}}
+form.lead button{margin-top:20px;width:100%}
+.consent{font-size:.78rem;color:var(--muted);margin-top:12px}
+
+footer{border-top:1px solid var(--line);padding:40px 0;font-size:.82rem;color:var(--muted)}
+footer p{max-width:70em}
+
+/* mobile sticky CTA */
+.sticky{display:none}
+@media(max-width:700px){
+  .sticky{display:block;position:fixed;left:0;right:0;bottom:0;padding:10px 16px;background:var(--bg);border-top:1px solid var(--line);z-index:5}
+  .sticky .btn{display:block;text-align:center}
+  body{padding-bottom:70px}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#">Your<span>Brand</span> Lending</a>
+    <nav aria-label="Primary">
+      <a href="#how">How it works</a>
+      <a href="#requirements">Requirements</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn" href="#apply">Get a quote</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap grid">
+    <div>
+      <p class="eyebrow">Texas investor financing</p>
+      <h1>Qualify with the rent, not your tax returns.</h1>
+      <p class="lead">DSCR loans for Texas rental properties are underwritten on the property's income, so self-employed investors and growing portfolios can close without W-2s, pay stubs, or DTI math.</p>
+      <div class="cta">
+        <a class="btn" href="#apply">Get a DSCR quote</a>
+        <a class="btn ghost" href="#calculator">Check your DSCR</a>
+      </div>
+      <ul class="checks">
+        <li>Close in an LLC</li>
+        <li>No personal income docs</li>
+        <li>Single-family to 4-unit</li>
+        <li>Purchase, refi, cash-out</li>
+      </ul>
+    </div>
+
+    <!-- CALCULATOR -->
+    <div class="card calc" id="calculator">
+      <h3>Quick DSCR check</h3>
+      <p class="muted" style="font-size:.9rem">Estimate how a Texas rental stacks up. Property taxes matter a lot here, so include them.</p>
+      <label for="rent">Monthly rent (market or leased)</label>
+      <input id="rent" type="number" min="0" inputmode="decimal" value="2400">
+      <div class="row">
+        <div><label for="pi">Monthly principal &amp; interest</label>
+          <input id="pi" type="number" min="0" inputmode="decimal" value="1450"></div>
+        <div><label for="tax">Monthly property tax</label>
+          <input id="tax" type="number" min="0" inputmode="decimal" value="440"></div>
+      </div>
+      <div class="row">
+        <div><label for="ins">Monthly insurance</label>
+          <input id="ins" type="number" min="0" inputmode="decimal" value="210"></div>
+        <div><label for="hoa">Monthly HOA / MUD / PID</label>
+          <input id="hoa" type="number" min="0" inputmode="decimal" value="0"></div>
+      </div>
+      <div class="result" aria-live="polite">
+        <div class="big" id="dscr">—</div>
+        <div class="tag" id="verdict"></div>
+      </div>
+      <p class="fine">DSCR = monthly rent ÷ (principal + interest + taxes + insurance + HOA). Illustrative only; lender minimums vary and this is not a loan offer.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT IS DSCR -->
+<section class="band">
+  <div class="wrap">
+    <p class="eyebrow">What is a DSCR loan?</p>
+    <h2>One ratio decides the loan.</h2>
+    <div class="cols">
+      <div><h3>Rent ÷ Debt</h3><p class="muted">Debt service coverage ratio compares a property's rent to its monthly housing payment (PITIA). At or above 1.0, the property covers its own payment.</p></div>
+      <div><h3>The asset qualifies</h3><p class="muted">Underwriting looks at the property, your credit, and your down payment. Not your employer, tax returns, or how many other mortgages you hold.</p></div>
+      <div><h3>Built for investors</h3><p class="muted">These are business-purpose loans for investment property only, never for a primary residence.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY TEXAS -->
+<section id="texas">
+  <div class="wrap">
+    <p class="eyebrow">Why it matters in Texas</p>
+    <h2>Texas rentals have their own math.</h2>
+    <div class="cols two">
+      <div class="card"><h3>Property taxes drive the ratio</h3><p class="muted">With no state income tax, Texas relies heavily on property tax, and rates commonly run well above the national average. Because taxes count in the payment, they can pull a DSCR below 1.0 even on strong rent. We model it up front, no surprises at underwriting.</p></div>
+      <div class="card"><h3>Insurance is part of the story</h3><p class="muted">Wind, hail and flood exposure vary a lot by metro and by parcel. We help you get a realistic insurance number into your DSCR early, so the quote holds at closing.</p></div>
+      <div class="card"><h3>MUDs, PIDs &amp; HOAs</h3><p class="muted">Newer Texas subdivisions often carry special-district assessments on top of tax. We account for them in the payment so your ratio is honest.</p></div>
+      <div class="card"><h3>Statewide coverage</h3><p class="muted">Single-family, condos, townhomes, and 2–4 unit properties across the state's major markets and many smaller ones.</p>
+        <ul class="markets" aria-label="Markets served">
+          <li>Houston</li><li>Dallas–Fort Worth</li><li>Austin</li><li>San Antonio</li><li>El Paso</li><li>Rio Grande Valley</li>
+        </ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW -->
+<section id="how" style="background:var(--surface);border-block:1px solid var(--line)">
+  <div class="wrap">
+    <p class="eyebrow">How it works</p>
+    <h2>From quote to keys in four steps.</h2>
+    <ol class="steps">
+      <li><h3>Get a quote</h3><p class="muted">Share the address, rent, and rough credit range. No hard pull to see options.</p></li>
+      <li><h3>Submit the file</h3><p class="muted">Lease or rent appraisal, entity docs, ID, and bank statements for reserves.</p></li>
+      <li><h3>Appraisal &amp; underwriting</h3><p class="muted">Appraisal with a rent schedule confirms value and income.</p></li>
+      <li><h3>Close</h3><p class="muted">Sign with a Texas title company, in your name or your LLC.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- REQUIREMENTS -->
+<section id="requirements">
+  <div class="wrap">
+    <p class="eyebrow">Typical guidelines</p>
+    <h2>What lenders usually look for.</h2>
+    <p class="muted">Ranges are common in the market and vary by lender and loan. <strong>[Replace with your actual program terms.]</strong></p>
+    <div class="tablewrap">
+    <table>
+      <thead><tr><th>Item</th><th>Typical range</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>DSCR</td><td>1.0 or higher</td><td>Sub-1.0 options exist at lower leverage and higher pricing.</td></tr>
+        <tr><td>Credit score</td><td>~660–680+</td><td>Higher scores unlock better pricing and leverage.</td></tr>
+        <tr><td>Down payment</td><td>~20–25%</td><td>Purchase and refinance leverage differ.</td></tr>
+        <tr><td>Reserves</td><td>Several months of PITIA</td><td>Verified with bank statements.</td></tr>
+        <tr><td>Property types</td><td>SFR, condo, townhome, 2–4 unit</td><td>Short-term rentals may use a different rent method.</td></tr>
+        <tr><td>Borrower</td><td>Individual or LLC</td><td>Personal guarantee is typical.</td></tr>
+        <tr><td>Prepayment</td><td>Often a prepay penalty</td><td>Ask about structure and buy-down options.</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+</section>
+
+<!-- WHO -->
+<section class="band">
+  <div class="wrap">
+    <p class="eyebrow">Who it fits</p>
+    <h2>Good fit if you…</h2>
+    <div class="cols">
+      <div><h3>Are self-employed</h3><p class="muted">Write-offs shrink taxable income. DSCR looks at the property instead.</p></div>
+      <div><h3>Are scaling a portfolio</h3><p class="muted">Conventional DTI limits and loan-count caps stop many investors. DSCR sidesteps them.</p></div>
+      <div><h3>Buy through an LLC</h3><p class="muted">Hold title in an entity for liability planning, and talk to your attorney and CPA about structure.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap" style="max-width:780px">
+    <p class="eyebrow">FAQ</p>
+    <h2>Common questions.</h2>
+    <details><summary>Do you check my income?</summary><p>Not personal income. Qualification rests on the property's rent, your credit, and your assets for down payment and reserves.</p></details>
+    <details><summary>What if my DSCR is below 1.0?</summary><p>Some programs allow it with lower leverage, a larger down payment, or a higher rate. Use the calculator above, then ask for a quote.</p></details>
+    <details><summary>Can I use a short-term rental (Airbnb) income?</summary><p>Often yes, using a different income method such as a market-rent analysis tool. Terms depend on the program.</p></details>
+    <details><summary>Can I close in an LLC?</summary><p>Yes. Many investors do. Consult an attorney about the right entity setup.</p></details>
+    <details><summary>Can I use this for my home?</summary><p>No. DSCR loans are for business-purpose investment property only.</p></details>
+    <details><summary>How fast can I close?</summary><p>Timelines depend on appraisal scheduling and title. <strong>[Insert your typical timeline.]</strong></p></details>
+  </div>
+</section>
+
+<!-- FORM -->
+<section id="apply" style="background:var(--surface);border-top:1px solid var(--line)">
+  <div class="wrap" style="max-width:640px">
+    <p class="eyebrow">Get started</p>
+    <h2>Request your Texas DSCR quote.</h2>
+    <p class="muted">Takes about two minutes. No obligation.</p>
+    <form class="lead" action="#" method="post" id="leadform">
+      <div class="row">
+        <div><label for="name">Full name</label><input id="name" name="name" autocomplete="name" required></div>
+        <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" required></div>
+      </div>
+      <label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required>
+      <div class="row">
+        <div><label for="city">Property city</label><input id="city" name="city" required></div>
+        <div><label for="purpose">Loan purpose</label>
+          <select id="purpose" name="purpose"><option>Purchase</option><option>Rate/term refinance</option><option>Cash-out refinance</option></select></div>
+      </div>
+      <div class="row">
+        <div><label for="value">Property value / price ($)</label><input id="value" name="value" type="number" min="0" inputmode="numeric"></div>
+        <div><label for="credit">Credit score range</label>
+          <select id="credit" name="credit"><option>Under 660</option><option>660–699</option><option>700–739</option><option>740+</option></select></div>
+      </div>
+      <button class="btn" type="submit">Get my quote</button>
+      <p class="consent">By submitting, you agree to be contacted about loan options. <strong>[Add TCPA/consent language and link your Privacy Policy.]</strong> Wire the form <code>action</code> to your CRM or form service.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Your Brand Lending</strong> · NMLS #[0000000] · Texas licensing: [license/registration info] · Equal Housing Opportunity</p>
+    <p>Loans are for business or investment purposes only and are not available for owner-occupied or consumer-purpose use. Rates, terms and availability vary and are subject to credit approval, property review, and underwriting. Figures shown are illustrative, not a commitment to lend. This site does not provide legal or tax advice. <strong>[Have counsel review all copy and disclosures before launch.]</strong></p>
+    <p><a href="#">Privacy Policy</a> · <a href="#">Terms</a></p>
+  </div>
+</footer>
+
+<div class="sticky"><a class="btn" href="#apply">Get a DSCR quote</a></div>
+
+<script>
+(function(){
+  var ids=['rent','pi','tax','ins','hoa'];
+  function v(id){return parseFloat(document.getElementById(id).value)||0}
+  function calc(){
+    var debt=v('pi')+v('tax')+v('ins')+v('hoa');
+    var out=document.getElementById('dscr'), tag=document.getElementById('verdict');
+    if(debt<=0){out.textContent='—';tag.textContent='';return}
+    var r=v('rent')/debt;
+    out.textContent=r.toFixed(2);
+    if(r>=1.25){tag.className='tag good';tag.textContent='Strong: typically widest program access'}
+    else if(r>=1.0){tag.className='tag good';tag.textContent='Qualifies at most lenders'}
+    else if(r>=0.75){tag.className='tag mid';tag.textContent='Below 1.0: limited options, lower leverage'}
+    else{tag.className='tag low';tag.textContent='Low: higher rent or lower payment needed'}
+  }
+  ids.forEach(function(i){document.getElementById(i).addEventListener('input',calc)});
+  calc();
+  document.getElementById('leadform').addEventListener('submit',function(e){
+    e.preventDefault();
+    alert('Demo only: connect this form to your CRM or form service.');
+  });
+})();
+</script>
+</body>
+</html>
